@@ -33,7 +33,7 @@
           <div class="card p-4 hover:shadow-md transition-shadow group">
             <!-- Project Image Placeholder -->
             <div class="h-40 bg-muted rounded-lg mb-4 flex items-center justify-center">
-              <span class="text-3xl">🚀</span>
+              <div class="w-16 h-16 bg-secondary rounded-lg"></div>
             </div>
             
             <div class="space-y-2">

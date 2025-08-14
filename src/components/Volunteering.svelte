@@ -32,8 +32,8 @@
         {#each volunteer as vol, id}
           <div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: {1.5 + id * 0.05}s;">
             <li class="relative ml-10 py-4">
-              <div class="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
-                <span class="text-lg p-2">🤝</span>
+              <div class="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full w-8 h-8">
+                <div class="w-4 h-4 bg-foreground rounded-full"></div>
               </div>
               <div class="flex flex-1 flex-col justify-start gap-1">
                 <time class="text-xs text-muted-foreground">{vol.duration}</time>

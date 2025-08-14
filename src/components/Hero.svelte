@@ -20,8 +20,12 @@
         </p>
       </div>
       <div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 0.2s;">
-        <div class="size-28 border rounded-full bg-muted flex items-center justify-center">
-          <span class="text-4xl">👨‍💻</span>
+        <div class="size-28 border rounded-full bg-muted flex items-center justify-center overflow-hidden">
+          <img 
+            src="https://github.com/debarshee2004.png" 
+            alt="Debarshee Das"
+            class="w-full h-full object-cover"
+          />
         </div>
       </div>
     </div>
