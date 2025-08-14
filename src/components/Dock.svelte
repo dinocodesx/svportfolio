@@ -19,6 +19,23 @@
   <div class="fixed bottom-0 inset-x-0 h-16 w-full bg-background to-transparent backdrop-blur-lg"></div>
   <div class={`z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center px-1 bg-background rounded-full border border-border shadow-lg fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 2s;">
     
+    <!-- Blog link -->
+    <a
+      href="/blogs"
+      class="size-12 flex items-center justify-center hover:bg-muted rounded-full transition-colors group relative"
+      title="Blog"
+    >
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+        <path d="M4 19.5A2.5 2.5 0 0 1 1.5 17V7A2.5 2.5 0 0 1 4 4.5h16A2.5 2.5 0 0 1 22.5 7v10a2.5 2.5 0 0 1-2.5 2.5H4zm0-1.5h16a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1zm1-9h14v1H5v-1zm0 3h14v1H5v-1zm0 3h10v1H5v-1z" />
+      </svg>
+      <div class="absolute bottom-full mb-2 px-2 py-1 bg-foreground text-background text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">
+        Blog
+      </div>
+    </a>
+    
+    <!-- Separator -->
+    <div class="h-8 w-px bg-border mx-1"></div>
+    
     <!-- Social links -->
     {#each socialLinks as social}
       <a
