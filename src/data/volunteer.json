@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"title": "Web Development Mentor",
+		"organization": "CodePath",
+		"duration": "2023 - Present",
+		"description": "Mentor aspiring developers in web development fundamentals, code reviews, and career guidance.",
+		"impact": "Helped 25+ students land their first tech jobs"
+	},
+	{
+		"id": 2,
+		"title": "Open Source Contributor",
+		"organization": "Various Projects",
+		"duration": "2021 - Present",
+		"description": "Contributing to open source projects in React, Vue.js, and developer tools ecosystem.",
+		"impact": "500+ contributions across 20+ repositories"
+	},
+	{
+		"id": 3,
+		"title": "Tech Workshop Instructor",
+		"organization": "Local Community Center",
+		"duration": "2022 - 2023",
+		"description": "Taught basic programming and web development to underserved youth in the community.",
+		"impact": "Reached 100+ students across 12 workshops"
+	}
+]

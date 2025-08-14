@@ -1,0 +1,29 @@
+[
+	{
+		"id": 1,
+		"title": "Senior Full Stack Developer",
+		"company": "TechCorp Solutions",
+		"location": "San Francisco, CA",
+		"duration": "2022 - Present",
+		"description": "Lead development of scalable web applications using React, Node.js, and cloud technologies. Mentored junior developers and improved deployment processes.",
+		"technologies": ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"]
+	},
+	{
+		"id": 2,
+		"title": "Frontend Developer",
+		"company": "Digital Innovations",
+		"location": "Remote",
+		"duration": "2020 - 2022",
+		"description": "Developed responsive web interfaces and improved user experience across multiple client projects. Collaborated with design teams to implement pixel-perfect designs.",
+		"technologies": ["Vue.js", "JavaScript", "Sass", "Figma", "Git"]
+	},
+	{
+		"id": 3,
+		"title": "Junior Web Developer",
+		"company": "StartupX",
+		"location": "New York, NY",
+		"duration": "2019 - 2020",
+		"description": "Built and maintained company website and internal tools. Gained experience in full-stack development and agile methodologies.",
+		"technologies": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+	}
+]

@@ -1,0 +1,32 @@
+[
+	{
+		"category": "Frontend",
+		"skills": [
+			{ "name": "React", "level": 90 },
+			{ "name": "Vue.js", "level": 85 },
+			{ "name": "Svelte", "level": 80 },
+			{ "name": "TypeScript", "level": 88 },
+			{ "name": "Tailwind CSS", "level": 92 }
+		]
+	},
+	{
+		"category": "Backend",
+		"skills": [
+			{ "name": "Node.js", "level": 85 },
+			{ "name": "Python", "level": 82 },
+			{ "name": "PostgreSQL", "level": 78 },
+			{ "name": "MongoDB", "level": 75 },
+			{ "name": "REST APIs", "level": 90 }
+		]
+	},
+	{
+		"category": "Tools & Others",
+		"skills": [
+			{ "name": "Git", "level": 95 },
+			{ "name": "Docker", "level": 80 },
+			{ "name": "AWS", "level": 75 },
+			{ "name": "Figma", "level": 85 },
+			{ "name": "Linux", "level": 88 }
+		]
+	}
+]
