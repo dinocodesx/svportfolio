@@ -35,7 +35,7 @@
 	class="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex h-full max-h-14 origin-bottom"
 >
 	<div
-		class="bg-background fixed inset-x-0 bottom-0 h-16 w-full to-transparent backdrop-blur-lg"
+		class="bg-background fixed inset-x-0 bottom-0 h-20 w-full to-transparent backdrop-blur-lg"
 	></div>
 	<div
 		class={`bg-background border-border fade-in pointer-events-auto relative z-50 mx-auto flex h-full min-h-full items-center rounded-full border px-1 shadow-lg ${mounted ? 'opacity-100' : 'opacity-0'}`}
