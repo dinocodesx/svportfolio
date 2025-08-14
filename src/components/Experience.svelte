@@ -17,7 +17,7 @@
     </div>
     {#each experiences as work, id}
       <div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: {0.6 + id * 0.05}s;">
-        <div class="card p-4 hover:shadow-md transition-shadow">
+        <div class="hover:shadow-md transition-shadow">
           <div class="flex flex-col space-y-1.5">
             <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start">
               <h3 class="font-semibold text-base">{work.company}</h3>
