@@ -1,9 +1,12 @@
 <script lang="ts">
 	import '../app.css';
+	import LoadingScreen from '../components/LoadingScreen.svelte';
 
 	let { children } = $props();
 </script>
 
-<div class="min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6">
+<LoadingScreen />
+
+<div class="bg-background mx-auto min-h-screen max-w-2xl px-6 py-12 font-sans antialiased sm:py-24">
 	{@render children()}
 </div>
