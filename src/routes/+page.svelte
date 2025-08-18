@@ -6,7 +6,7 @@
 	import Projects from '../components/Projects.svelte';
 	import Volunteering from '../components/Volunteering.svelte';
 	import Contact from '../components/Contact.svelte';
-	import Dock from '../components/Dock.svelte';
+	import Navbar from '../components/Navbar.svelte';
 </script>
 
 <svelte:head>
@@ -27,4 +27,4 @@
 	<Contact />
 </main>
 
-<Dock />
+<Navbar />
