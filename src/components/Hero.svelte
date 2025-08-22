@@ -20,19 +20,10 @@
 				<br />
 				<span class="text-muted-foreground">CODE</span>
 			</h1>
-
-			<!-- Geometric Element -->
-			<div
-				class={`bg-foreground absolute -top-4 -right-4 h-32 w-32 ${mounted ? 'opacity-100' : 'opacity-0'}`}
-				style="animation-delay: 0.2s;"
-			></div>
 		</div>
 
 		<!-- Subtitle with Swiss Grid -->
 		<div class="grid grid-cols-12 gap-8">
-			<div class="col-span-1">
-				<div class="bg-foreground mt-4 h-px w-full"></div>
-			</div>
 			<div class="col-span-11">
 				<p
 					class={`text-muted-foreground max-w-lg text-lg leading-relaxed font-light ${mounted ? 'opacity-100' : 'opacity-0'}`}

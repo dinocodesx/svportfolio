@@ -1,29 +1,20 @@
 [
 	{
 		"id": 1,
-		"title": "Senior Full Stack Developer",
-		"company": "TechCorp Solutions",
-		"location": "San Francisco, CA",
-		"duration": "2022 - Present",
-		"description": "Lead development of scalable web applications using React, Node.js, and cloud technologies. Mentored junior developers and improved deployment processes.",
-		"technologies": ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"]
+		"title": "Backend Developer",
+		"company": "Resourcio",
+		"location": "Kolkata, India",
+		"duration": "2022 - 2025",
+		"description": "Lead backend developer for Apertre Season 2 website, where we use GitHub API and other social media platform for data fetching and integration. This was used to calculate points for the Open Source Contribution tracking system.",
+		"technologies": ["React,", "Express,", "NextJs,", "NestJs,", "TypeScript,", "PostgreSQL"]
 	},
 	{
 		"id": 2,
-		"title": "Frontend Developer",
-		"company": "Digital Innovations",
+		"title": "Open Source Contributor",
+		"company": "Olake by Datazip",
 		"location": "Remote",
-		"duration": "2020 - 2022",
-		"description": "Developed responsive web interfaces and improved user experience across multiple client projects. Collaborated with design teams to implement pixel-perfect designs.",
-		"technologies": ["Vue.js", "JavaScript", "Sass", "Figma", "Git"]
-	},
-	{
-		"id": 3,
-		"title": "Junior Web Developer",
-		"company": "StartupX",
-		"location": "New York, NY",
-		"duration": "2019 - 2020",
-		"description": "Built and maintained company website and internal tools. Gained experience in full-stack development and agile methodologies.",
-		"technologies": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+		"duration": "April 2025",
+		"description": "Enhanced MongoDB splitVector operation by implementing retry logic with exponential backoff, improved reliability of data chunking under transient failures, applying principles of fault tolerance, operating systems, and algorithmic optimization.",
+		"technologies": ["Java,", "Go,", "Shell,", "Apache Iceberg,", "SQL,", "AWS S3"]
 	}
 ]

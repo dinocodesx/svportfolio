@@ -106,24 +106,28 @@
 										Links
 									</h4>
 									<div class="space-y-3">
-										<a
-											href={project.github}
-											target="_blank"
-											rel="noopener noreferrer"
-											class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
-										>
-											<div class="bg-foreground h-px w-8 transition-all group-hover:w-12"></div>
-											<span>View on GitHub</span>
-										</a>
-										<a
-											href={project.live}
-											target="_blank"
-											rel="noopener noreferrer"
-											class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
-										>
-											<div class="bg-foreground h-px w-8 transition-all group-hover:w-12"></div>
-											<span>Live Demo</span>
-										</a>
+										{#if project.github}
+											<a
+												href={project.github}
+												target="_blank"
+												rel="noopener noreferrer"
+												class="hover:text-muted-foreground group flex items-center text-sm font-medium transition-colors"
+											>
+												<div class="h-px transition-all group-hover:w-2"></div>
+												<span>View on GitHub</span>
+											</a>
+										{/if}
+										{#if project.live}
+											<a
+												href={project.live}
+												target="_blank"
+												rel="noopener noreferrer"
+												class="hover:text-muted-foreground group flex items-center text-sm font-medium transition-colors"
+											>
+												<div class="h-px transition-all group-hover:w-2"></div>
+												<span>Live Demo</span>
+											</a>
+										{/if}
 									</div>
 								</div>
 							</div>
@@ -131,6 +135,16 @@
 					</div>
 				</div>
 			{/each}
+		</div>
+
+		<!-- Checkout my Projects Button -->
+		<div class="mt-12">
+			<a
+				href="/projects"
+				class="dark:bg-swiss-dark inline-block border-2 border-black bg-white px-8 py-4 font-mono text-sm tracking-wider uppercase transition-colors duration-200 hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black"
+			>
+				Checkout my Projects
+			</a>
 		</div>
 	</div>
 </section>

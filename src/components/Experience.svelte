@@ -62,11 +62,11 @@
 							<!-- Technologies -->
 							<div class="space-y-2">
 								<div class="text-muted-foreground text-xs font-medium tracking-wider uppercase">
-									Technologies
+									Tech Stack
 								</div>
 								<div class="flex flex-wrap gap-2">
 									{#each work.technologies as tech}
-										<span class="bg-muted px-3 py-1 text-xs font-medium tracking-wider uppercase">
+										<span class="bg-muted py-1 text-xs font-medium tracking-wider uppercase">
 											{tech}
 										</span>
 									{/each}

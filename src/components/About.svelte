@@ -36,15 +36,16 @@
 				style="animation-delay: 0.4s;"
 			>
 				<p class="text-xl leading-relaxed font-light">
-					I'm a certified TensorFlow ML Engineer with publications at SciPyConf. Passionate about
-					building scalable machine learning solutions and contributing to the open source
-					community.
+					I'm a backend developer and machine learning enthusiast with experience in designing
+					scalable, efficient, and reliable systems. My work focuses on building high-performance
+					backend architectures, integrating AI-powered solutions, and ensuring seamless deployment
+					with modern DevOps practices.
 				</p>
 
 				<p class="text-muted-foreground text-lg leading-relaxed font-light">
-					When I'm not coding, you can find me writing research papers, mentoring aspiring
-					developers, or exploring the latest in AI and machine learning technologies. I believe in
-					creating technology that makes a positive impact on society.
+					When I'm not coding, I'm exploring new frameworks, contributing to open-source, or
+					mentoring peers in backend and ML concepts. I believe in creating technology that empowers
+					people and brings innovation into real-world solutions.
 				</p>
 
 				<!-- Checkout my Blogs Button -->
@@ -70,22 +71,13 @@
 						Expertise
 					</h3>
 					<ul class="space-y-2 text-sm">
+						<li>Backend Development</li>
+						<li>Frontend Development</li>
 						<li>Machine Learning</li>
 						<li>Deep Learning</li>
-						<li>Computer Vision</li>
-						<li>Natural Language Processing</li>
-					</ul>
-				</div>
-
-				<div class="border-foreground border-l-4 pl-6">
-					<h3 class="text-muted-foreground mb-3 text-sm font-medium tracking-wider uppercase">
-						Tools
-					</h3>
-					<ul class="space-y-2 text-sm">
-						<li>TensorFlow & PyTorch</li>
-						<li>Python & Scala</li>
-						<li>AWS & Google Cloud</li>
-						<li>Docker & Kubernetes</li>
+						<li>API Design</li>
+						<li>System Architecture</li>
+						<li>Data Engineering & DevOps</li>
 					</ul>
 				</div>
 			</div>
