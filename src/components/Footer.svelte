@@ -51,21 +51,21 @@
 									href="/projects"
 									class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
 								>
-									<div class="bg-foreground h-px w-8 transition-all group-hover:w-12"></div>
+									<div class="bg-foreground h-px transition-all group-hover:w-2"></div>
 									<span>Projects</span>
 								</a>
 								<a
 									href="/blogs"
 									class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
 								>
-									<div class="bg-foreground h-px w-8 transition-all group-hover:w-12"></div>
+									<div class="bg-foreground h-px transition-all group-hover:w-2"></div>
 									<span>Blogs</span>
 								</a>
 								<a
 									href="/links"
 									class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
 								>
-									<div class="bg-foreground h-px w-8 transition-all group-hover:w-12"></div>
+									<div class="bg-foreground h-px transition-all group-hover:w-2"></div>
 									<span>Links</span>
 								</a>
 							</div>

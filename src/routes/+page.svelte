@@ -18,26 +18,12 @@
 </svelte:head>
 
 <main class="space-y-24">
-	<!-- Top Grid Section -->
-	<div class="grid min-h-[100dvh] grid-cols-12 gap-8 lg:gap-16">
-		<!-- Left Column - Main Content -->
-		<div class="col-span-12 space-y-24 lg:col-span-8">
-			<Hero />
-			<About />
-			<Experience />
-			<Projects />
-		</div>
-
-		<!-- Right Column - Secondary Content -->
-		<div class="col-span-12 space-y-16 lg:col-span-4">
-			<Skills />
-			<Volunteering />
-		</div>
-	</div>
-
-	<!-- Full Width Contact Section at Bottom -->
-	<div class="w-full">
-		<Contact />
-		<Footer />
-	</div>
+	<Hero />
+	<About />
+	<Experience />
+	<Skills />
+	<Volunteering />
+	<Projects />
+	<Contact />
+	<Footer />
 </main>

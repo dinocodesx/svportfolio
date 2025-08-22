@@ -16,7 +16,7 @@
 		class={`absolute -top-2.5 -left-34 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 		style="animation-delay: 1.0s;"
 	>
-		<div class="text-muted-foreground/20 text-8xl font-black select-none">03</div>
+		<div class="text-muted-foreground/20 text-8xl font-black select-none">05</div>
 	</div>
 
 	<div class="space-y-16">
@@ -140,8 +140,8 @@
 		<!-- Checkout my Projects Button -->
 		<div class="mt-12">
 			<a
-				href="/projects"
-				class="dark:bg-swiss-dark inline-block border-2 border-black bg-white px-8 py-4 font-mono text-sm tracking-wider uppercase transition-colors duration-200 hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black"
+				href="/blogs"
+				class="border-foreground bg-background hover:bg-foreground hover:text-background inline-block border-2 px-8 py-4 font-mono text-sm tracking-[0.1em] uppercase transition-all duration-200"
 			>
 				Checkout my Projects
 			</a>

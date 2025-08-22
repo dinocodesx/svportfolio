@@ -10,7 +10,7 @@
 	});
 </script>
 
-<section id="work" class="relative">
+<section id="experience" class="relative">
 	<!-- Section Number -->
 	<div
 		class={`absolute -top-2.5 -left-34 ${mounted ? 'opacity-100' : 'opacity-0'}`}

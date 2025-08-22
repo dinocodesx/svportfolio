@@ -14,7 +14,7 @@
 		class={`absolute -top-2.5 -left-34 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 		style="animation-delay: 1.5s;"
 	>
-		<div class="text-muted-foreground/20 text-8xl font-black select-none">04</div>
+		<div class="text-muted-foreground/20 text-8xl font-black select-none">06</div>
 	</div>
 
 	<div class="space-y-16">
@@ -120,7 +120,7 @@
 								rel="noopener noreferrer"
 								class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
 							>
-								<div class="bg-foreground h-px w-8 transition-all group-hover:w-12"></div>
+								<div class="bg-foreground h-px transition-all group-hover:w-2"></div>
 								<span>LinkedIn</span>
 							</a>
 							<a
@@ -129,14 +129,14 @@
 								rel="noopener noreferrer"
 								class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
 							>
-								<div class="bg-foreground h-px w-8 transition-all group-hover:w-12"></div>
+								<div class="bg-foreground h-px transition-all group-hover:w-2"></div>
 								<span>GitHub</span>
 							</a>
 							<a
 								href="/links"
 								class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
 							>
-								<div class="bg-foreground h-px w-8 transition-all group-hover:w-12"></div>
+								<div class="bg-foreground h-px transition-all group-hover:w-2"></div>
 								<span>All Links</span>
 							</a>
 						</div>

@@ -17,7 +17,7 @@
 	/>
 </svelte:head>
 
-<main class="flex min-h-[100dvh] flex-col py-12">
+<main class="flex flex-col pt-12">
 	<!-- Header -->
 	<div class={`${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 0.1s;">
 		<div class="mb-12 text-center">
@@ -32,7 +32,7 @@
 				/>
 			</div>
 
-			<h1 class="mb-2 text-2xl font-bold">Debarshee Chakraborty</h1>
+			<h3 class="mb-2 text-2xl font-bold">Debarshee Chakraborty</h3>
 			<p class="text-muted-foreground">Machine Learning Engineer</p>
 		</div>
 	</div>
@@ -62,9 +62,9 @@
 
 							<!-- Content -->
 							<div class="min-w-0 flex-1">
-								<h3 class="group-hover:text-muted-foreground font-semibold transition-colors">
+								<h4 class="group-hover:text-muted-foreground font-semibold transition-colors">
 									{link.name}
-								</h3>
+								</h4>
 								<p class="text-muted-foreground truncate text-sm">
 									{link.description}
 								</p>
