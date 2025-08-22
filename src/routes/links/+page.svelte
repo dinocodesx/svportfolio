@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import linksData from '$lib/../data/links.json';
+	import linksData from '../../data/links.json';
 
 	let mounted = false;
 

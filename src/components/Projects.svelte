@@ -140,10 +140,10 @@
 		<!-- Checkout my Projects Button -->
 		<div class="mt-12">
 			<a
-				href="/blogs"
+				href="https://github.com/debarshee2004"
 				class="border-foreground bg-background hover:bg-foreground hover:text-background inline-block border-2 px-8 py-4 font-mono text-sm tracking-[0.1em] uppercase transition-all duration-200"
 			>
-				Checkout my Projects
+				Checkout more Projects
 			</a>
 		</div>
 	</div>

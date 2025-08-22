@@ -34,12 +34,7 @@ html {
 }
 
 body {
-	font-family:
-		'Inter',
-		'Helvetica Neue',
-		Helvetica,
-		Arial,
-		sans-serif;
+	font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	margin: 0;
 	padding: 0;
 	background-color: hsl(var(--background));
@@ -49,11 +44,19 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	letter-spacing: -0.01em;
-	font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+	font-feature-settings:
+		'kern' 1,
+		'liga' 1,
+		'calt' 1;
 }
 
 /* Swiss Typography Scale */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-weight: 900;
 	letter-spacing: -0.02em;
 	line-height: 1.1;
@@ -118,7 +121,8 @@ h3 {
 
 /* Swiss Typography Classes */
 .swiss-mono {
-	font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+	font-family:
+		'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
 	font-weight: 400;
 	letter-spacing: 0.02em;
 }
