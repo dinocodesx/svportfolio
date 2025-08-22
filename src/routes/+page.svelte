@@ -6,6 +6,7 @@
 	import Projects from '../components/Projects.svelte';
 	import Volunteering from '../components/Volunteering.svelte';
 	import Contact from '../components/Contact.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -37,5 +38,6 @@
 	<!-- Full Width Contact Section at Bottom -->
 	<div class="w-full">
 		<Contact />
+		<Footer />
 	</div>
 </main>
