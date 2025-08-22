@@ -7,6 +7,6 @@
 
 <LoadingScreen />
 
-<div class="bg-background mx-auto min-h-screen max-w-2xl px-6 py-12 font-sans antialiased sm:py-24">
+<div class="bg-background mx-auto min-h-screen max-w-6xl px-8 py-16 font-sans antialiased lg:px-16">
 	{@render children()}
 </div>

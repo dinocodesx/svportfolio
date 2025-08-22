@@ -8,88 +8,113 @@
 	});
 </script>
 
-<section id="contact" class="mb-10">
-	<div class="w-full py-12">
+<section id="contact" class="relative">
+	<!-- Section Number -->
+	<div
+		class={`fade-in absolute top-0 -left-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+		style="animation-delay: 1.5s;"
+	>
+		<div class="text-muted-foreground/20 text-8xl font-black select-none">04</div>
+	</div>
+
+	<div class="space-y-16">
+		<!-- Header -->
 		<div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 1.6s;">
-			<div class="mb-8 space-y-6 text-center">
-				<h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Get in Touch</h2>
-				<p
-					class="text-muted-foreground mx-auto max-w-[600px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
-				>
-					Ready to collaborate? Choose your preferred way to connect with me.
-				</p>
+			<div class="mb-12 flex items-center space-x-8">
+				<h2 class="text-4xl font-black tracking-wider uppercase">Contact</h2>
+				<div class="bg-foreground h-px flex-1"></div>
 			</div>
+			<p class="text-muted-foreground max-w-2xl text-xl leading-relaxed font-light">
+				Ready to collaborate? Let's discuss how we can work together to build something amazing.
+			</p>
 		</div>
 
-		<div class="mx-auto grid max-w-4xl gap-6 md:grid-cols-2">
-			<!-- Email Card -->
+		<!-- Contact Grid -->
+		<div class="grid grid-cols-1 gap-12 lg:grid-cols-3">
+			<!-- Email -->
 			<div
 				class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
 				style="animation-delay: 1.7s;"
 			>
-				<div class="card group flex h-full flex-col p-6 transition-shadow hover:shadow-md">
-					<!-- Email Icon -->
-					<div class="bg-muted mb-6 flex h-20 items-center justify-center rounded-lg">
-						<svg
-							class="text-muted-foreground h-10 w-10"
-							fill="none"
-							stroke="currentColor"
-							viewBox="0 0 24 24"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-							/>
-						</svg>
-					</div>
-
-					<div class="flex flex-1 flex-col space-y-4">
-						<h3 class="text-xl font-semibold">Send an Email</h3>
-						<p class="text-muted-foreground flex-1 text-sm">
-							For formal inquiries, collaborations, or detailed discussions, drop me an email and
-							I'll get back to you as soon as possible.
-						</p>
+				<div class="space-y-6">
+					<div class="border-foreground border-l-4 pl-8">
+						<h3 class="text-muted-foreground mb-4 text-xs font-medium tracking-wider uppercase">
+							Email
+						</h3>
 						<a
-							href="mailto:debarshee2004@gmail.com"
-							class="mt-auto inline-flex items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-700"
+							href="mailto:debarsheedas2004@gmail.com"
+							class="hover:text-muted-foreground block text-lg font-medium transition-colors"
 						>
-							Send Email
+							debarsheedas2004@gmail.com
 						</a>
+						<p class="text-muted-foreground mt-2 text-sm font-light">
+							For formal inquiries and collaboration discussions
+						</p>
 					</div>
 				</div>
 			</div>
 
-			<!-- Twitter DM Card -->
+			<!-- Social Links -->
 			<div
 				class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
 				style="animation-delay: 1.8s;"
 			>
-				<div class="card group flex h-full flex-col p-6 transition-shadow hover:shadow-md">
-					<!-- Twitter Icon -->
-					<div class="bg-muted mb-6 flex h-20 items-center justify-center rounded-lg">
-						<svg class="text-muted-foreground h-10 w-10" fill="currentColor" viewBox="0 0 24 24">
-							<path
-								d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
-							/>
-						</svg>
+				<div class="space-y-6">
+					<div class="border-foreground border-l-4 pl-8">
+						<h3 class="text-muted-foreground mb-4 text-xs font-medium tracking-wider uppercase">
+							Connect
+						</h3>
+						<div class="space-y-3">
+							<a
+								href="https://linkedin.com/in/debarsheedas2004"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
+							>
+								<div class="bg-foreground h-px w-8 transition-all group-hover:w-12"></div>
+								<span>LinkedIn</span>
+							</a>
+							<a
+								href="https://twitter.com/debarshee2004"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
+							>
+								<div class="bg-foreground h-px w-8 transition-all group-hover:w-12"></div>
+								<span>Twitter</span>
+							</a>
+							<a
+								href="https://github.com/debarshee2004"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
+							>
+								<div class="bg-foreground h-px w-8 transition-all group-hover:w-12"></div>
+								<span>GitHub</span>
+							</a>
+						</div>
 					</div>
+				</div>
+			</div>
 
-					<div class="flex flex-1 flex-col space-y-4">
-						<h3 class="text-xl font-semibold">Twitter DM</h3>
-						<p class="text-muted-foreground flex-1 text-sm">
-							For quick questions, casual chats, or just to say hi, shoot me a direct message on
-							Twitter and I'll respond when I can.
-						</p>
-						<a
-							href="https://twitter.com/debarshee2004"
-							target="_blank"
-							rel="noopener noreferrer"
-							class="mt-auto inline-flex items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-700"
-						>
-							Send DM
-						</a>
+			<!-- Status & Info -->
+			<div
+				class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
+				style="animation-delay: 1.9s;"
+			>
+				<div class="space-y-6">
+					<div class="border-foreground border-l-4 pl-8">
+						<h3 class="text-muted-foreground mb-4 text-xs font-medium tracking-wider uppercase">
+							Availability
+						</h3>
+						<div class="space-y-3">
+							<div class="flex items-center space-x-3">
+								<div class="h-3 w-3 rounded-full bg-green-500"></div>
+								<span class="text-sm font-medium">Available for work</span>
+							</div>
+							<div class="text-muted-foreground text-sm font-light">San Francisco, CA</div>
+							<div class="text-muted-foreground text-sm font-light">Response time: 24 hours</div>
+						</div>
 					</div>
 				</div>
 			</div>

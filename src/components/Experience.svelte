@@ -10,37 +10,72 @@
 	});
 </script>
 
-<section id="work" class="mb-10">
-	<div class="flex min-h-0 flex-col gap-y-3">
+<section id="work" class="relative">
+	<!-- Section Number -->
+	<div
+		class={`fade-in absolute top-0 -left-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+		style="animation-delay: 0.4s;"
+	>
+		<div class="text-muted-foreground/20 text-8xl font-black select-none">02</div>
+	</div>
+
+	<div class="space-y-12">
+		<!-- Header -->
 		<div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 0.5s;">
-			<h2 class="text-xl font-bold">Work Experience</h2>
+			<div class="mb-12 flex items-center space-x-8">
+				<h2 class="text-4xl font-black tracking-wider uppercase">Experience</h2>
+				<div class="bg-foreground h-px flex-1"></div>
+			</div>
 		</div>
-		{#each experiences as work, id}
-			<div
-				class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
-				style="animation-delay: {0.6 + id * 0.05}s;"
-			>
-				<div class="transition-shadow hover:shadow-md">
-					<div class="flex flex-col space-y-1.5">
-						<div class="flex flex-col sm:flex-row sm:items-start sm:justify-between">
-							<h3 class="text-base font-semibold">{work.company}</h3>
-							<div class="text-muted-foreground text-xs">{work.duration}</div>
+
+		<!-- Experience Timeline -->
+		<div class="space-y-16">
+			{#each experiences as work, id}
+				<div
+					class={`fade-in grid grid-cols-12 gap-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+					style="animation-delay: {0.6 + id * 0.1}s;"
+				>
+					<!-- Timeline -->
+					<div class="col-span-12 lg:col-span-3">
+						<div class="space-y-2">
+							<div class="text-muted-foreground text-xs font-medium tracking-wider uppercase">
+								{work.duration}
+							</div>
+							<div class="text-muted-foreground text-sm">{work.location}</div>
 						</div>
-						<div class="text-muted-foreground text-sm">{work.title}</div>
-						<div class="text-muted-foreground text-sm">{work.location}</div>
 					</div>
-					{#if work.description}
-						<div class="text-muted-foreground mt-2 font-sans text-sm text-pretty">
-							{work.description}
+
+					<!-- Content -->
+					<div class="col-span-12 lg:col-span-9">
+						<div class="border-foreground space-y-4 border-l-4 pl-8">
+							<div>
+								<h3 class="mb-1 text-2xl font-bold">{work.company}</h3>
+								<div class="text-muted-foreground text-lg font-light">{work.title}</div>
+							</div>
+
+							{#if work.description}
+								<p class="text-muted-foreground leading-relaxed font-light">
+									{work.description}
+								</p>
+							{/if}
+
+							<!-- Technologies -->
+							<div class="space-y-2">
+								<div class="text-muted-foreground text-xs font-medium tracking-wider uppercase">
+									Technologies
+								</div>
+								<div class="flex flex-wrap gap-2">
+									{#each work.technologies as tech}
+										<span class="bg-muted px-3 py-1 text-xs font-medium tracking-wider uppercase">
+											{tech}
+										</span>
+									{/each}
+								</div>
+							</div>
 						</div>
-					{/if}
-					<div class="mt-2 flex flex-wrap gap-1">
-						{#each work.technologies as tech}
-							<span class="badge badge-secondary text-xs">{tech}</span>
-						{/each}
 					</div>
 				</div>
-			</div>
-		{/each}
+			{/each}
+		</div>
 	</div>
 </section>

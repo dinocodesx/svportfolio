@@ -10,39 +10,45 @@
 	});
 </script>
 
-<section id="volunteering" class="mb-10">
-	<div class="w-full space-y-12 py-12">
+<section id="volunteering" class="relative">
+	<!-- Section Number -->
+	<div
+		class={`fade-in absolute top-0 -left-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+		style="animation-delay: 1.2s;"
+	>
+		<div class="text-muted-foreground/30 rotate-90 text-4xl font-black select-none">03</div>
+	</div>
+
+	<div class="space-y-8">
+		<!-- Header -->
 		<div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 1.3s;">
-			<div class="flex flex-col items-center justify-center space-y-4 text-center">
-				<div class="space-y-2">
-					<h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Giving Back</h2>
-					<p
-						class="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
-					>
-						I believe in using my skills to make a positive impact in the community through
-						mentoring and open source contributions.
-					</p>
-				</div>
-			</div>
+			<h2 class="mb-4 text-2xl font-black tracking-wider uppercase">Volunteer</h2>
+			<div class="bg-foreground h-px w-full"></div>
 		</div>
-		<div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 1.4s;">
-			<ul class="mb-4 ml-4 divide-y divide-dashed border-l">
-				{#each volunteer as vol, id}
-					<div
-						class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
-						style="animation-delay: {1.5 + id * 0.05}s;"
-					>
-						<li class="relative ml-6 py-6">
-							<div class="flex flex-1 flex-col justify-start gap-2">
-								<time class="text-muted-foreground text-xs">{vol.duration}</time>
-								<h3 class="text-base font-semibold">{vol.title}</h3>
-								<h4 class="text-muted-foreground text-sm">{vol.organization}</h4>
-								<p class="text-muted-foreground text-sm">{vol.description}</p>
+
+		<!-- Volunteer Timeline -->
+		<div class="space-y-6">
+			{#each volunteer as vol, id}
+				<div
+					class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
+					style="animation-delay: {1.4 + id * 0.1}s;"
+				>
+					<div class="border-foreground space-y-3 border-l-4 pl-6">
+						<div class="space-y-1">
+							<div class="text-muted-foreground text-xs font-medium tracking-wider uppercase">
+								{vol.duration}
 							</div>
-						</li>
+							<h3 class="text-sm font-bold">{vol.title}</h3>
+							<div class="text-muted-foreground text-xs font-medium">
+								{vol.organization}
+							</div>
+						</div>
+						<p class="text-muted-foreground text-xs leading-relaxed">
+							{vol.description}
+						</p>
 					</div>
-				{/each}
-			</ul>
+				</div>
+			{/each}
 		</div>
 	</div>
 </section>
