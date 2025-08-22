@@ -1,23 +1,37 @@
 [
 	{
 		"id": 1,
-		"title": "Lead Organizer",
-		"organization": "GDG On Campus AOT",
-		"duration": "2024 - 2025",
-		"description": "Maintained a supportive learning environment for 30+ students."
-	},
-	{
-		"id": 2,
 		"title": "Content Writer and Social Media Admin",
 		"organization": "GDG Cloud Kolkata",
 		"duration": "2024 - Present",
 		"description": "Organized the biggest technical event in India, 20+ speakers and 800+ attendees."
 	},
 	{
+		"id": 2,
+		"title": "Lead Organizer",
+		"organization": "GDG On Campus AOT",
+		"duration": "2024 - 2025",
+		"description": "Organized events and tech talks for more than 800+ students of our college."
+	},
+	{
 		"id": 3,
 		"title": "Tech Team Member",
 		"organization": "Hack4Bengal",
 		"duration": "2024 - 2025",
-		"description": "Part of the Team which organized West Bengal's biggest hackathons."
+		"description": "Part of the Team which organized West Bengal's biggest offline hackathons."
+	},
+	{
+		"id": 4,
+		"title": "Tech Team Lead",
+		"organization": "IEI SCEE AOT",
+		"duration": "2023 - 2025",
+		"description": "Lead the website development team, and other technical initiatives."
+	},
+	{
+		"id": 5,
+		"title": "Tech Team Member",
+		"organization": "IEEE SB AOT",
+		"duration": "2023 - 2025",
+		"description": "Part of the Tech Team for our college's IEEE Student Branch."
 	}
 ]
