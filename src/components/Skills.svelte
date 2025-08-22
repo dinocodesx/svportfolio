@@ -21,7 +21,7 @@
 <section id="skills" class="relative">
 	<!-- Section Number -->
 	<div
-		class={`absolute top-0 -left-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+		class={`absolute top-0 -left-10 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 		style="animation-delay: 0.8s;"
 	>
 		<div class="text-muted-foreground/30 rotate-90 text-4xl font-black select-none">05</div>

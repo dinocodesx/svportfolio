@@ -82,7 +82,7 @@
 								<div>SvelteKit</div>
 								<div>Tailwind CSS</div>
 								<div>TypeScript</div>
-								<div>Vercel</div>
+								<div>Cloudflare</div>
 							</div>
 						</div>
 					</div>
@@ -97,7 +97,7 @@
 		>
 			<div class="flex flex-col space-y-4 md:flex-row md:justify-between md:space-y-0">
 				<div class="text-muted-foreground text-sm font-light">
-					© {currentYear} Debarshee Das. All rights reserved.
+					© {currentYear} Debarshee Chakraborty. All rights reserved.
 				</div>
 				<div class="text-muted-foreground text-sm font-light">
 					Designed with Swiss typography principles

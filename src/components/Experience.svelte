@@ -13,7 +13,7 @@
 <section id="work" class="relative">
 	<!-- Section Number -->
 	<div
-		class={`absolute top-0 -left-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+		class={`absolute -top-2.5 -left-34 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 		style="animation-delay: 0.4s;"
 	>
 		<div class="text-muted-foreground/20 text-8xl font-black select-none">02</div>

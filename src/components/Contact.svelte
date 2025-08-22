@@ -11,7 +11,7 @@
 <section id="contact" class="relative">
 	<!-- Section Number -->
 	<div
-		class={`absolute top-0 -left-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+		class={`absolute -top-2.5 -left-34 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 		style="animation-delay: 1.5s;"
 	>
 		<div class="text-muted-foreground/20 text-8xl font-black select-none">04</div>
@@ -45,7 +45,7 @@
 					<div class="space-y-4">
 						<!-- Email CTA -->
 						<a
-							href="mailto:debarsheedas2004@gmail.com"
+							href="mailto:debarshee.chakraborty.work2004@gmail.com"
 							class="group border-foreground bg-background hover:bg-foreground hover:text-background flex w-full items-center justify-between border-2 p-6 font-mono text-sm tracking-wider uppercase transition-colors duration-200"
 						>
 							<div class="flex items-center space-x-4">
@@ -63,7 +63,7 @@
 
 						<!-- Twitter CTA -->
 						<a
-							href="https://twitter.com/debarshee2004"
+							href="https://x.com/dinocodes69"
 							target="_blank"
 							rel="noopener noreferrer"
 							class="group border-foreground bg-background hover:bg-foreground hover:text-background flex w-full items-center justify-between border-2 p-6 font-mono text-sm tracking-wider uppercase transition-colors duration-200"
@@ -93,7 +93,7 @@
 							<div class="text-sm">
 								<span class="text-muted-foreground">Email:</span>
 								<br />
-								<span class="font-mono">debarsheedas2004@gmail.com</span>
+								<span class="font-mono">debarshee.chakraborty.work@gmail.com</span>
 							</div>
 							<div class="text-sm">
 								<span class="text-muted-foreground">Response Time:</span>
@@ -155,7 +155,6 @@
 								<span class="text-sm font-medium">Available for opportunities</span>
 							</div>
 							<div class="text-muted-foreground text-sm">Open to full-time roles</div>
-							<div class="text-muted-foreground text-sm">Interested in ML/AI projects</div>
 							<div class="text-muted-foreground text-sm">Remote or hybrid preferred</div>
 						</div>
 					</div>
@@ -168,10 +167,9 @@
 							What I'm Looking For
 						</h3>
 						<div class="space-y-2 text-sm">
+							<div>• Backend Development roles</div>
 							<div>• Machine Learning Engineering roles</div>
 							<div>• Open source collaborations</div>
-							<div>• Speaking opportunities</div>
-							<div>• Interesting side projects</div>
 						</div>
 					</div>
 				</div>
