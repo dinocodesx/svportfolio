@@ -49,6 +49,16 @@
 					developers, or exploring the latest in AI and machine learning technologies. I believe in
 					creating technology that makes a positive impact on society.
 				</p>
+
+				<!-- Checkout my Blogs Button -->
+				<div class="mt-12">
+					<a
+						href="/blogs"
+						class="dark:bg-swiss-dark inline-block border-2 border-black bg-white px-8 py-4 font-mono text-sm tracking-wider uppercase transition-colors duration-200 hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black"
+					>
+						Checkout my Blogs
+					</a>
+				</div>
 			</div>
 		</div>
 
