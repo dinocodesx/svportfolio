@@ -27,7 +27,7 @@
 </script>
 
 <svelte:head>
-	<title>Blog Posts - Debarshee Das</title>
+	<title>Blogs</title>
 	<meta
 		name="description"
 		content="Read my latest blog posts about machine learning, web development, and technology."
