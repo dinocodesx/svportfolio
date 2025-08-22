@@ -6,7 +6,6 @@
 	import Projects from '../components/Projects.svelte';
 	import Volunteering from '../components/Volunteering.svelte';
 	import Contact from '../components/Contact.svelte';
-	import Navbar from '../components/Navbar.svelte';
 </script>
 
 <svelte:head>
@@ -40,5 +39,3 @@
 		<Contact />
 	</div>
 </main>
-
-<Navbar />
