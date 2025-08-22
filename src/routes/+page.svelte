@@ -9,10 +9,10 @@
 </script>
 
 <svelte:head>
-	<title>Alex Developer - Machine Learning Engineer Portfolio</title>
+	<title>Dino Codes - Engineer Portfolio</title>
 	<meta
 		name="description"
-		content="Machine Learning Engineer specializing in TensorFlow, PyTorch, and modern AI technologies. View my projects, research, and experience."
+		content="Machine Learning and Backend Engineer specializing in Python, Java, Go and Typescript, and modern AI technologies."
 	/>
 </svelte:head>
 

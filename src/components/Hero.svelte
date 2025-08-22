@@ -16,9 +16,9 @@
 			<h1
 				class={`text-8xl leading-none font-black tracking-tighter lg:text-9xl ${mounted ? 'opacity-100' : 'opacity-0'}`}
 			>
-				ALEX
+				DINO CAN
 				<br />
-				<span class="text-muted-foreground">DEVELOPER</span>
+				<span class="text-muted-foreground">CODE</span>
 			</h1>
 
 			<!-- Geometric Element -->
@@ -38,8 +38,12 @@
 					class={`text-muted-foreground max-w-lg text-lg leading-relaxed font-light ${mounted ? 'opacity-100' : 'opacity-0'}`}
 					style="animation-delay: 0.3s;"
 				>
-					Machine Learning Engineer specialized in TensorFlow, PyTorch, and modern AI technologies.
-					Building the future through scalable ML solutions.
+					Hello i am Debarshee Chakraborty, i am <span class="font-bold underline">Backend</span>
+					and <span class="font-bold underline">Machine Learning Engineer</span> mainly working with
+					<span class="font-bold underline">Python</span>,
+					<span class="font-bold underline">Java</span>, <span class="font-bold underline">Go</span>
+					and
+					<span class="font-bold underline">Typescript</span>.
 				</p>
 			</div>
 		</div>
@@ -54,7 +58,7 @@
 					<div class="text-muted-foreground text-xs font-medium tracking-wider uppercase">
 						Location
 					</div>
-					<div class="font-medium">San Francisco, CA</div>
+					<div class="font-medium">Kolkata, WB, India</div>
 				</div>
 			</div>
 			<div class="col-span-3">
@@ -70,7 +74,7 @@
 					<div class="text-muted-foreground text-xs font-medium tracking-wider uppercase">
 						Focus
 					</div>
-					<div class="font-medium">AI/ML Engineering</div>
+					<div class="font-medium">Backend and AI/ML</div>
 				</div>
 			</div>
 			<div class="col-span-3">
@@ -78,7 +82,7 @@
 					<div class="text-muted-foreground text-xs font-medium tracking-wider uppercase">
 						Years
 					</div>
-					<div class="font-medium">5+ Experience</div>
+					<div class="font-medium">2+ Experience</div>
 				</div>
 			</div>
 		</div>
