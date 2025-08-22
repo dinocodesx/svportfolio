@@ -21,7 +21,7 @@
 <section id="skills" class="relative">
 	<!-- Section Number -->
 	<div
-		class={`fade-in absolute top-0 -left-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+		class={`absolute top-0 -left-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 		style="animation-delay: 0.8s;"
 	>
 		<div class="text-muted-foreground/30 rotate-90 text-4xl font-black select-none">02</div>
@@ -29,7 +29,7 @@
 
 	<div class="space-y-8">
 		<!-- Header -->
-		<div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 0.9s;">
+		<div class={`${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 0.9s;">
 			<h2 class="mb-4 text-2xl font-black tracking-wider uppercase">Skills</h2>
 			<div class="bg-foreground h-px w-full"></div>
 		</div>
@@ -38,7 +38,7 @@
 		<div class="space-y-6">
 			{#each skills as category, categoryIndex}
 				<div
-					class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
+					class={`${mounted ? 'opacity-100' : 'opacity-0'}`}
 					style="animation-delay: {1.0 + categoryIndex * 0.1}s;"
 				>
 					<h3 class="text-muted-foreground mb-3 text-xs font-medium tracking-wider uppercase">
@@ -47,7 +47,7 @@
 					<div class="space-y-2">
 						{#each category.skills as skill, skillIndex}
 							<div
-								class={`fade-in border-foreground border-l-2 py-1 pl-4 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+								class={`border-foreground border-l-2 py-1 pl-4 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 								style="animation-delay: {1.1 + categoryIndex * 0.1 + skillIndex * 0.05}s;"
 							>
 								<div class="text-sm font-medium">{skill.name}</div>

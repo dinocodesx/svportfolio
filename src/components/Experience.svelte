@@ -13,7 +13,7 @@
 <section id="work" class="relative">
 	<!-- Section Number -->
 	<div
-		class={`fade-in absolute top-0 -left-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+		class={`absolute top-0 -left-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 		style="animation-delay: 0.4s;"
 	>
 		<div class="text-muted-foreground/20 text-8xl font-black select-none">02</div>
@@ -21,7 +21,7 @@
 
 	<div class="space-y-12">
 		<!-- Header -->
-		<div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 0.5s;">
+		<div class={`${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 0.5s;">
 			<div class="mb-12 flex items-center space-x-8">
 				<h2 class="text-4xl font-black tracking-wider uppercase">Experience</h2>
 				<div class="bg-foreground h-px flex-1"></div>
@@ -32,7 +32,7 @@
 		<div class="space-y-16">
 			{#each experiences as work, id}
 				<div
-					class={`fade-in grid grid-cols-12 gap-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+					class={`grid grid-cols-12 gap-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 					style="animation-delay: {0.6 + id * 0.1}s;"
 				>
 					<!-- Timeline -->

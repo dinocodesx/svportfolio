@@ -13,7 +13,7 @@
 <section id="projects" class="relative">
 	<!-- Section Number -->
 	<div
-		class={`fade-in absolute top-0 -left-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+		class={`absolute top-0 -left-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 		style="animation-delay: 1.0s;"
 	>
 		<div class="text-muted-foreground/20 text-8xl font-black select-none">03</div>
@@ -21,7 +21,7 @@
 
 	<div class="space-y-16">
 		<!-- Header -->
-		<div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 1.1s;">
+		<div class={`${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 1.1s;">
 			<div class="mb-12 flex items-center space-x-8">
 				<h2 class="text-4xl font-black tracking-wider uppercase">Projects</h2>
 				<div class="bg-foreground h-px flex-1"></div>
@@ -36,7 +36,7 @@
 		<div class="space-y-20">
 			{#each projects as project, id}
 				<div
-					class={`fade-in grid grid-cols-12 gap-8 lg:gap-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+					class={`grid grid-cols-12 gap-8 lg:gap-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 					style="animation-delay: {1.2 + id * 0.1}s;"
 				>
 					<!-- Project Number & Info -->

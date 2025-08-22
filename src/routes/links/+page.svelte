@@ -19,7 +19,7 @@
 
 <main class="flex min-h-[100dvh] flex-col py-12">
 	<!-- Header -->
-	<div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 0.1s;">
+	<div class={`${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 0.1s;">
 		<div class="mb-12 text-center">
 			<!-- Profile picture -->
 			<div
@@ -41,7 +41,7 @@
 	<div class="mx-auto w-full max-w-md space-y-4">
 		{#each linksData as link, id}
 			<div
-				class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
+				class={`${mounted ? 'opacity-100' : 'opacity-0'}`}
 				style="animation-delay: {0.2 + id * 0.1}s;"
 			>
 				<a

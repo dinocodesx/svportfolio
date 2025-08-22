@@ -11,7 +11,7 @@
 <section id="contact" class="relative">
 	<!-- Section Number -->
 	<div
-		class={`fade-in absolute top-0 -left-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+		class={`absolute top-0 -left-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 		style="animation-delay: 1.5s;"
 	>
 		<div class="text-muted-foreground/20 text-8xl font-black select-none">04</div>
@@ -19,7 +19,7 @@
 
 	<div class="space-y-16">
 		<!-- Header -->
-		<div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 1.6s;">
+		<div class={`${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 1.6s;">
 			<div class="mb-12 flex items-center space-x-8">
 				<h2 class="text-4xl font-black tracking-wider uppercase">Contact</h2>
 				<div class="bg-foreground h-px flex-1"></div>
@@ -32,10 +32,7 @@
 		<!-- Contact Grid -->
 		<div class="grid grid-cols-1 gap-12 lg:grid-cols-3">
 			<!-- Email -->
-			<div
-				class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
-				style="animation-delay: 1.7s;"
-			>
+			<div class={`${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 1.7s;">
 				<div class="space-y-6">
 					<div class="border-foreground border-l-4 pl-8">
 						<h3 class="text-muted-foreground mb-4 text-xs font-medium tracking-wider uppercase">
@@ -55,10 +52,7 @@
 			</div>
 
 			<!-- Social Links -->
-			<div
-				class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
-				style="animation-delay: 1.8s;"
-			>
+			<div class={`${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 1.8s;">
 				<div class="space-y-6">
 					<div class="border-foreground border-l-4 pl-8">
 						<h3 class="text-muted-foreground mb-4 text-xs font-medium tracking-wider uppercase">
@@ -98,10 +92,7 @@
 			</div>
 
 			<!-- Status & Info -->
-			<div
-				class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
-				style="animation-delay: 1.9s;"
-			>
+			<div class={`${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 1.9s;">
 				<div class="space-y-6">
 					<div class="border-foreground border-l-4 pl-8">
 						<h3 class="text-muted-foreground mb-4 text-xs font-medium tracking-wider uppercase">

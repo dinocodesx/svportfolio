@@ -14,7 +14,7 @@
 		<!-- Main Heading with Swiss Typography -->
 		<div class="relative">
 			<h1
-				class={`fade-in text-8xl leading-none font-black tracking-tighter lg:text-9xl ${mounted ? 'opacity-100' : 'opacity-0'}`}
+				class={`text-8xl leading-none font-black tracking-tighter lg:text-9xl ${mounted ? 'opacity-100' : 'opacity-0'}`}
 			>
 				ALEX
 				<br />
@@ -23,7 +23,7 @@
 
 			<!-- Geometric Element -->
 			<div
-				class={`fade-in bg-foreground absolute -top-4 -right-4 h-32 w-32 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+				class={`bg-foreground absolute -top-4 -right-4 h-32 w-32 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 				style="animation-delay: 0.2s;"
 			></div>
 		</div>
@@ -35,7 +35,7 @@
 			</div>
 			<div class="col-span-11">
 				<p
-					class={`text-muted-foreground fade-in max-w-lg text-lg leading-relaxed font-light ${mounted ? 'opacity-100' : 'opacity-0'}`}
+					class={`text-muted-foreground max-w-lg text-lg leading-relaxed font-light ${mounted ? 'opacity-100' : 'opacity-0'}`}
 					style="animation-delay: 0.3s;"
 				>
 					Machine Learning Engineer specialized in TensorFlow, PyTorch, and modern AI technologies.
@@ -46,7 +46,7 @@
 
 		<!-- Functional Information Grid -->
 		<div
-			class={`fade-in grid grid-cols-12 gap-8 pt-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+			class={`grid grid-cols-12 gap-8 pt-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 			style="animation-delay: 0.4s;"
 		>
 			<div class="col-span-3">

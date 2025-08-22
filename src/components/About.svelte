@@ -11,7 +11,7 @@
 <section id="about" class="relative">
 	<!-- Section Number -->
 	<div
-		class={`fade-in absolute top-0 -left-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+		class={`absolute top-0 -left-16 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 		style="animation-delay: 0.2s;"
 	>
 		<div class="text-muted-foreground/20 text-8xl font-black select-none">01</div>
@@ -21,10 +21,7 @@
 	<div class="grid grid-cols-12 gap-8">
 		<!-- Section Header -->
 		<div class="col-span-12">
-			<div
-				class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
-				style="animation-delay: 0.3s;"
-			>
+			<div class={`${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 0.3s;">
 				<div class="mb-12 flex items-center space-x-8">
 					<h2 class="text-4xl font-black tracking-wider uppercase">About</h2>
 					<div class="bg-foreground h-px flex-1"></div>
@@ -35,7 +32,7 @@
 		<!-- Main Content -->
 		<div class="col-span-12 lg:col-span-8">
 			<div
-				class={`fade-in space-y-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+				class={`space-y-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 				style="animation-delay: 0.4s;"
 			>
 				<p class="text-xl leading-relaxed font-light">
@@ -65,7 +62,7 @@
 		<!-- Info Panel -->
 		<div class="col-span-12 lg:col-span-4">
 			<div
-				class={`fade-in space-y-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+				class={`space-y-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 				style="animation-delay: 0.5s;"
 			>
 				<div class="border-foreground border-l-4 pl-6">

@@ -37,7 +37,7 @@
 <main class="flex min-h-[100dvh] flex-col px-4 sm:px-6 lg:px-8">
 	<div class="mx-auto w-full max-w-4xl">
 		<section class="py-8 sm:py-12">
-			<div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}>
+			<div class={`${mounted ? 'opacity-100' : 'opacity-0'}`}>
 				<div class="mb-8 space-y-3 text-center sm:mb-12 sm:space-y-4">
 					<h1 class="text-2xl font-bold tracking-tight sm:text-3xl lg:text-5xl">Latest Posts</h1>
 					<p
@@ -51,7 +51,7 @@
 			<div class="space-y-2 sm:space-y-4">
 				{#each blogs as blog, id}
 					<div
-						class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
+						class={`${mounted ? 'opacity-100' : 'opacity-0'}`}
 						style="animation-delay: {0.1 + id * 0.05}s;"
 					>
 						<!-- Desktop/Tablet Layout -->

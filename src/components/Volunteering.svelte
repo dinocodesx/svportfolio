@@ -13,7 +13,7 @@
 <section id="volunteering" class="relative">
 	<!-- Section Number -->
 	<div
-		class={`fade-in absolute top-0 -left-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
+		class={`absolute top-0 -left-8 ${mounted ? 'opacity-100' : 'opacity-0'}`}
 		style="animation-delay: 1.2s;"
 	>
 		<div class="text-muted-foreground/30 rotate-90 text-4xl font-black select-none">03</div>
@@ -21,7 +21,7 @@
 
 	<div class="space-y-8">
 		<!-- Header -->
-		<div class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 1.3s;">
+		<div class={`${mounted ? 'opacity-100' : 'opacity-0'}`} style="animation-delay: 1.3s;">
 			<h2 class="mb-4 text-2xl font-black tracking-wider uppercase">Volunteer</h2>
 			<div class="bg-foreground h-px w-full"></div>
 		</div>
@@ -30,7 +30,7 @@
 		<div class="space-y-6">
 			{#each volunteer as vol, id}
 				<div
-					class={`fade-in ${mounted ? 'opacity-100' : 'opacity-0'}`}
+					class={`${mounted ? 'opacity-100' : 'opacity-0'}`}
 					style="animation-delay: {1.4 + id * 0.1}s;"
 				>
 					<div class="border-foreground space-y-3 border-l-4 pl-6">
