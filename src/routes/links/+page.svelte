@@ -45,6 +45,7 @@
 				style="animation-delay: {0.2 + id * 0.1}s;"
 			>
 				<a
+					data-sveltekit-preload-data="hover"
 					href={link.url}
 					{...link.url.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {}}
 					class="block w-full"

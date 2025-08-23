@@ -124,6 +124,7 @@
 								<span>LinkedIn</span>
 							</a>
 							<a
+								data-sveltekit-preload-data="hover"
 								href="https://github.com/debarshee2004"
 								target="_blank"
 								rel="noopener noreferrer"
@@ -133,6 +134,7 @@
 								<span>GitHub</span>
 							</a>
 							<a
+								data-sveltekit-preload-data="hover"
 								href="/links"
 								class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
 							>

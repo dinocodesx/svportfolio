@@ -27,7 +27,7 @@
 </script>
 
 <svelte:head>
-	<title>Blogs</title>
+	<title>Blogs - Debarshee Chakraborty</title>
 	<meta
 		name="description"
 		content="Read my latest blog posts about machine learning, web development, and technology."
@@ -61,6 +61,7 @@
 							>
 								<div class="min-w-0 shrink-0">
 									<a
+										data-sveltekit-preload-data="hover"
 										href={blog.url}
 										class="text-foreground hover:text-muted-foreground text-base font-medium transition-colors lg:text-lg"
 									>
@@ -79,7 +80,7 @@
 						<!-- Mobile Layout -->
 						<div class="sm:hidden">
 							<div class="hover:bg-muted/50 rounded-lg p-4 transition-colors">
-								<a href={blog.url} class="block space-y-2">
+								<a data-sveltekit-preload-data="hover" href={blog.url} class="block space-y-2">
 									<h3 class="text-foreground text-base leading-snug font-medium">
 										{blog.title}
 									</h3>
@@ -96,6 +97,7 @@
 			<!-- Back to home link -->
 			<div class="mt-8 text-center sm:mt-12">
 				<a
+					data-sveltekit-preload-data="hover"
 					href="/"
 					class="text-muted-foreground hover:text-foreground inline-flex items-center gap-2 text-sm font-medium transition-colors"
 				>

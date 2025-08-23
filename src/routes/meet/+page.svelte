@@ -24,6 +24,7 @@
 	<div class="text-center">
 		<h1 class="text-2xl font-black tracking-[-0.02em] uppercase">Redirecting...</h1>
 		<a
+			data-sveltekit-preload-data="hover"
 			href="https://meet.google.com/fah-jykb-hzo"
 			class="text-muted-foreground hover:text-foreground mt-4 block text-sm underline"
 		>

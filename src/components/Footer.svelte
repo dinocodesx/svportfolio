@@ -48,13 +48,15 @@
 							</h4>
 							<div class="space-y-3">
 								<a
-									href="/projects"
+									target="_blank"
+									href="https://github.com/debarshee2004"
 									class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
 								>
 									<div class="bg-foreground h-px transition-all group-hover:w-2"></div>
 									<span>Projects</span>
 								</a>
 								<a
+									data-sveltekit-preload-data="hover"
 									href="/blogs"
 									class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
 								>
@@ -62,6 +64,7 @@
 									<span>Blogs</span>
 								</a>
 								<a
+									data-sveltekit-preload-data="hover"
 									href="/links"
 									class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
 								>
