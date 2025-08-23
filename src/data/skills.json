@@ -28,5 +28,15 @@
 			{ "name": "HuggingFace Transformers" },
 			{ "name": "MLflow Kubeflow" }
 		]
+	},
+	{
+		"category": "Systems Programming",
+		"skills": [
+			{ "name": "Go • Rust • C++" },
+			{ "name": "Linux • System Calls" },
+			{ "name": "Networking • TCP/IP" },
+			{ "name": "Memory Management" },
+			{ "name": "Distributed Systems" }
+		]
 	}
 ]

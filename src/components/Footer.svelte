@@ -35,6 +35,30 @@
 						create something extraordinary.
 					</p>
 				</div>
+
+				<h3 class="text-muted-foreground mt-6 mb-10 text-sm font-medium tracking-wider uppercase">
+					Check this out
+				</h3>
+
+				<div class="space-y-4">
+					<!-- Retro Version -->
+					<a
+						href="https://retro.dinocodes.in"
+						class="group border-foreground bg-background hover:bg-foreground hover:text-background flex w-full items-center justify-between border-2 p-6 font-mono text-sm tracking-wider uppercase transition-colors duration-200"
+					>
+						<div class="flex items-center space-x-4">
+							<div
+								class="bg-foreground group-hover:bg-background flex h-8 w-8 items-center justify-center"
+							>
+								<span class="text-background group-hover:text-foreground text-xs font-black"
+									>建築</span
+								>
+							</div>
+							<span>Retro Vibes</span>
+						</div>
+						<div class="text-muted-foreground group-hover:text-background/70 text-xs">→</div>
+					</a>
+				</div>
 			</div>
 
 			<!-- Links & Info -->
