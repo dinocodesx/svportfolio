@@ -37,7 +37,7 @@
 				</div>
 
 				<h3 class="text-muted-foreground mt-6 mb-10 text-sm font-medium tracking-wider uppercase">
-					Check this out
+					Check out this alternative retro portfolio
 				</h3>
 
 				<div class="space-y-4">
@@ -128,6 +128,7 @@
 				</div>
 				<div class="text-muted-foreground text-sm font-light">
 					Designed with Swiss typography principles
+					<!-- https://www.awwwards.com/sites/aristide-swiss-portfolio -->
 				</div>
 			</div>
 		</div>
