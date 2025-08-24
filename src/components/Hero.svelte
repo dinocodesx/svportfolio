@@ -11,25 +11,33 @@
 <section id="hero" class="relative flex min-h-screen items-center">
 	<!-- Grid Lines Overlay for Swiss Layout -->
 	<div class="pointer-events-none absolute inset-0 opacity-5">
-		<div class="grid h-full grid-cols-12 gap-8">
+		<div class="grid h-full grid-cols-6 gap-4 sm:grid-cols-8 md:gap-6 lg:grid-cols-12 lg:gap-8">
 			{#each Array(12) as _, i}
-				<div class="border-foreground border-r"></div>
+				<div class="border-foreground hidden border-r lg:block"></div>
+			{/each}
+			{#each Array(8) as _, i}
+				<div class="border-foreground hidden border-r sm:block lg:hidden"></div>
+			{/each}
+			{#each Array(6) as _, i}
+				<div class="border-foreground block border-r sm:hidden"></div>
 			{/each}
 		</div>
 	</div>
 
 	<!-- Swiss Grid Container -->
-	<div class="grid w-full grid-cols-12 gap-8">
+	<div class="grid w-full grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-8">
 		<!-- Large Typography Section -->
-		<div class="col-span-12 lg:col-span-7">
-			<div class="space-y-16">
+		<div class="lg:col-span-7">
+			<div class="space-y-8 sm:space-y-12 lg:space-y-16">
 				<!-- Primary Headline -->
 				<div class="relative">
-					<div class="text-muted-foreground/20 mb-4 font-mono text-xs tracking-[0.2em] uppercase">
+					<div
+						class="text-muted-foreground/20 mb-2 font-mono text-xs tracking-[0.2em] uppercase sm:mb-4"
+					>
 						001
 					</div>
 					<h1
-						class={`text-6xl leading-[0.85] font-black tracking-[-0.02em] uppercase md:text-7xl lg:text-8xl xl:text-9xl ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}
+						class={`text-4xl leading-[0.85] font-black tracking-[-0.02em] uppercase sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}
 						style="transition: all 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);"
 					>
 						DINO
@@ -42,11 +50,11 @@
 
 				<!-- Functional Statement -->
 				<div
-					class={`space-y-8 ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}
+					class={`space-y-6 sm:space-y-8 ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}
 					style="transition: all 0.8s cubic-bezier(0.25, 0.1, 0.25, 1) 0.2s;"
 				>
-					<div class="border-foreground border-l-4 pl-8">
-						<h2 class="max-w-lg text-lg leading-relaxed font-light md:text-xl">
+					<div class="border-foreground border-l-4 pl-4 sm:pl-6 lg:pl-8">
+						<h2 class="max-w-lg text-base leading-relaxed font-light sm:text-lg md:text-xl">
 							Backend and Machine Learning Engineer specializing in scalable systems and AI
 							solutions
 						</h2>
@@ -56,19 +64,21 @@
 		</div>
 
 		<!-- Information Panel -->
-		<div class="col-span-12 lg:col-span-5">
+		<div class="lg:col-span-5">
 			<div
-				class={`space-y-16 ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}
+				class={`space-y-8 sm:space-y-12 lg:space-y-16 ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}
 				style="transition: all 0.8s cubic-bezier(0.25, 0.1, 0.25, 1) 0.4s;"
 			>
 				<!-- Personal Information -->
-				<div class="space-y-8">
-					<div class="border-foreground border-l-4 pl-8">
-						<div class="text-muted-foreground mb-4 font-mono text-xs tracking-[0.2em] uppercase">
+				<div class="space-y-6 sm:space-y-8">
+					<div class="border-foreground border-l-4 pl-4 sm:pl-6 lg:pl-8">
+						<div
+							class="text-muted-foreground mb-3 font-mono text-xs tracking-[0.2em] uppercase sm:mb-4"
+						>
 							Personal
 						</div>
-						<div class="space-y-4 text-sm">
-							<div class="grid grid-cols-2 gap-x-8 gap-y-3">
+						<div class="space-y-3 text-sm sm:space-y-4">
+							<div class="grid grid-cols-1 gap-y-3 sm:grid-cols-2 sm:gap-x-4 sm:gap-y-3 lg:gap-x-8">
 								<div>
 									<div class="text-muted-foreground font-mono text-xs uppercase">Name</div>
 									<div class="font-medium">Debarshee Chakraborty</div>
@@ -94,12 +104,14 @@
 				</div>
 
 				<!-- Technical Focus -->
-				<div class="space-y-8">
-					<div class="border-foreground border-l-4 pl-8">
-						<div class="text-muted-foreground mb-4 font-mono text-xs tracking-[0.2em] uppercase">
+				<div class="space-y-6 sm:space-y-8">
+					<div class="border-foreground border-l-4 pl-4 sm:pl-6 lg:pl-8">
+						<div
+							class="text-muted-foreground mb-3 font-mono text-xs tracking-[0.2em] uppercase sm:mb-4"
+						>
 							Technical Focus
 						</div>
-						<div class="space-y-3 text-sm">
+						<div class="space-y-2 text-sm sm:space-y-3">
 							<div class="border-border flex items-center justify-between border-b py-2">
 								<span class="font-medium">Backend Development</span>
 								<span class="text-muted-foreground font-mono text-xs">PRIMARY</span>
@@ -117,9 +129,11 @@
 				</div>
 
 				<!-- Primary Technologies -->
-				<div class="space-y-8">
-					<div class="border-foreground border-l-4 pl-8">
-						<div class="text-muted-foreground mb-4 font-mono text-xs tracking-[0.2em] uppercase">
+				<div class="space-y-6 sm:space-y-8">
+					<div class="border-foreground border-l-4 pl-4 sm:pl-6 lg:pl-8">
+						<div
+							class="text-muted-foreground mb-3 font-mono text-xs tracking-[0.2em] uppercase sm:mb-4"
+						>
 							Core Stack
 						</div>
 						<div class="grid grid-cols-2 gap-2 font-mono text-xs uppercase">

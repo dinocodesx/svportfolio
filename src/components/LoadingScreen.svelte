@@ -34,12 +34,14 @@
 		class:opacity-100={!fadeOut}
 	>
 		<!-- Loading counter in bottom-right -->
-		<div class="p-12">
-			<div class="font-mono text-7xl font-light tracking-wider text-white select-none">
+		<div class="p-6 sm:p-8 md:p-12">
+			<div
+				class="font-mono text-4xl font-light tracking-wider text-white select-none sm:text-5xl md:text-6xl lg:text-7xl"
+			>
 				{Math.floor(progress).toString().padStart(2, '0')}%
 			</div>
 			<!-- Optional loading bar -->
-			<div class="mt-4 h-0.5 w-32 overflow-hidden rounded-full bg-gray-800">
+			<div class="mt-3 h-0.5 w-20 overflow-hidden rounded-full bg-gray-800 sm:mt-4 sm:w-24 md:w-32">
 				<div
 					class="h-full rounded-full bg-white transition-all duration-100 ease-out"
 					style="width: {progress}%"

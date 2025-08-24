@@ -8,7 +8,7 @@
 <!-- <LoadingScreen /> -->
 
 <div
-	class="bg-background text-foreground mx-auto min-h-screen max-w-6xl px-8 py-16 font-sans antialiased lg:px-16"
+	class="bg-background text-foreground mx-auto min-h-screen max-w-6xl px-4 py-8 font-sans antialiased sm:px-6 md:px-8 lg:px-16 lg:py-16"
 >
 	{@render children()}
 </div>
