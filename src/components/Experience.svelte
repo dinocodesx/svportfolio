@@ -59,6 +59,18 @@
 								</p>
 							{/if}
 
+							<!-- Achievements -->
+							<div class="space-y-2">
+								<div class="text-muted-foreground text-xs font-medium tracking-wider uppercase">
+									Achievements
+								</div>
+								<ul class="list-disc pl-5">
+									{#each Object.entries(work.achievements) as [key, value]}
+										<li class="text-muted-foreground text-sm">{value}</li>
+									{/each}
+								</ul>
+							</div>
+
 							<!-- Technologies -->
 							<div class="space-y-2">
 								<div class="text-muted-foreground text-xs font-medium tracking-wider uppercase">
