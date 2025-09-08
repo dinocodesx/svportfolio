@@ -20,27 +20,27 @@
 		"title": "Redis from scratch using Go",
 		"description": "Built a Redis clone in Go supporting commands, memory management, protocol compliance, and object-oriented principles.",
 		"technologies": ["Go", "Linux", "TCP", "Memory"],
-		"github": "https://github.com/debarshee2004/goredis"
+		"github": "https://github.com/dinocodesx/goredis"
 	},
 	{
 		"id": 4,
 		"title": "Containers from scratch using Go",
 		"description": "Building a container form scratch using Go-Lang to do low level system manipulation and modification.",
 		"technologies": ["Go", "Linux", "Memory"],
-		"github": "https://github.com/debarshee2004/containers-from-scratch"
+		"github": "https://github.com/dinocodesx/containers-from-scratch"
 	},
 	{
 		"id": 5,
 		"title": "Attention is All You Need",
 		"description": "This repository contains the implementation of the seminal paper `Attention is All You Need` by Vaswani et al. (2017), which introduced the Transformer architecture.",
 		"technologies": ["Python", "HuggingFace", "Transformer", "PyTorch"],
-		"github": "https://github.com/debarshee2004/attention-is-all-you-need"
+		"github": "https://github.com/dinocodesx/attention-is-all-you-need"
 	},
 	{
 		"id": 6,
 		"title": "E-commerce Application using Spring Microservice",
 		"description": "Designed microservices-based e-commerce platform with scalable distributed multi-tier architecture, and optimized backend.",
 		"technologies": ["Java", "Spring", "Spring Boot", "DGS", "Postgres", "Mongo", "Docker"],
-		"github": "https://github.com/debarshee2004/spring-microservice"
+		"github": "https://github.com/dinocodesx/spring-microservice"
 	}
 ]

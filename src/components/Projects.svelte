@@ -149,7 +149,7 @@
 		<div class="mt-8 sm:mt-12">
 			<a
 				target="_blank"
-				href="https://github.com/debarshee2004"
+				href="https://github.com/dinocodesx"
 				class="border-foreground bg-background hover:bg-foreground hover:text-background inline-block border-2 px-6 py-3 font-mono text-xs tracking-[0.1em] uppercase transition-all duration-200 sm:px-8 sm:py-4 sm:text-sm"
 			>
 				Checkout more Projects

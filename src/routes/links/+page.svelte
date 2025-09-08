@@ -26,7 +26,7 @@
 				class="bg-muted mx-auto mb-6 flex size-24 items-center justify-center overflow-hidden rounded-full border"
 			>
 				<img
-					src="https://github.com/debarshee2004.png"
+					src="https://github.com/dinocodesx.png"
 					alt="Debarshee Chakraborty"
 					class="h-full w-full object-cover"
 				/>

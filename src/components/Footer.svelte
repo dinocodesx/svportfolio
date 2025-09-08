@@ -79,7 +79,7 @@
 							<div class="space-y-2 sm:space-y-3">
 								<a
 									target="_blank"
-									href="https://github.com/debarshee2004"
+									href="https://github.com/dinocodesx"
 									class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
 								>
 									<div class="bg-foreground h-px transition-all group-hover:w-2"></div>

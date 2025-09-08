@@ -131,7 +131,7 @@
 						</h3>
 						<div class="space-y-2 sm:space-y-3">
 							<a
-								href="https://linkedin.com/in/debarsheedas2004"
+								href="https://linkedin.com/in/dinocodesx"
 								target="_blank"
 								rel="noopener noreferrer"
 								class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
@@ -141,7 +141,7 @@
 							</a>
 							<a
 								data-sveltekit-preload-data="hover"
-								href="https://github.com/debarshee2004"
+								href="https://github.com/dinocodesx"
 								target="_blank"
 								rel="noopener noreferrer"
 								class="hover:text-muted-foreground group flex items-center space-x-3 text-sm font-medium transition-colors"
