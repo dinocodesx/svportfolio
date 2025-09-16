@@ -5,7 +5,7 @@
 		{ name: 'Home', href: '/' },
 		{ name: 'Blogs', href: '/blogs' },
 		{ name: 'Talks', href: '/talks' },
-		{ name: 'Projects', href: '#projects' }
+		{ name: 'Projects', href: '/projects' }
 	];
 
 	let mobileMenuOpen = false;
@@ -26,17 +26,6 @@
 			return $page.url.pathname === '/' && $page.url.hash === href;
 		}
 		return $page.url.pathname.startsWith(href);
-	}
-
-	function handleProjectsClick(event: Event) {
-		if ($page.url.pathname === '/') {
-			// If we're on the home page, scroll to projects section
-			event.preventDefault();
-			const projectsSection = document.getElementById('projects');
-			if (projectsSection) {
-				projectsSection.scrollIntoView({ behavior: 'smooth' });
-			}
-		}
 	}
 
 	function handleKeydown(event: KeyboardEvent) {
@@ -62,7 +51,7 @@
 							)
 								? 'text-foreground'
 								: 'text-muted-foreground hover:text-foreground hover:bg-accent'}"
-							on:click={item.name === 'Projects' ? handleProjectsClick : closeMobileMenu}
+							on:click={closeMobileMenu}
 						>
 							{item.name}
 							{#if isActive(item.href)}
@@ -136,12 +125,7 @@
 						class="block text-2xl font-medium transition-colors {isActive(item.href)
 							? 'text-foreground'
 							: 'text-muted-foreground hover:text-foreground'}"
-						on:click={item.name === 'Projects'
-							? (e) => {
-									handleProjectsClick(e);
-									closeMobileMenu();
-								}
-							: closeMobileMenu}
+						on:click={closeMobileMenu}
 					>
 						{item.name}
 					</a>
