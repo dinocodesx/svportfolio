@@ -8,9 +8,9 @@
 	});
 </script>
 
-<section id="hero" class="relative flex min-h-screen items-center">
+<section id="hero" class="relative flex items-center py-16 sm:py-20 lg:py-24">
 	<!-- Grid Lines Overlay for Swiss Layout -->
-	<div class="pointer-events-none absolute inset-0 opacity-5">
+	<!-- <div class="pointer-events-none absolute inset-0 opacity-5">
 		<div class="grid h-full grid-cols-6 gap-4 sm:grid-cols-8 md:gap-6 lg:grid-cols-12 lg:gap-8">
 			{#each Array(12) as _, i}
 				<div class="border-foreground hidden border-r lg:block"></div>
@@ -22,12 +22,12 @@
 				<div class="border-foreground block border-r sm:hidden"></div>
 			{/each}
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Swiss Grid Container -->
-	<div class="grid w-full grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-8">
+	<div class="grid w-full grid-cols-1">
 		<!-- Large Typography Section -->
-		<div class="lg:col-span-7">
+		<div class="w-full">
 			<div class="space-y-8 sm:space-y-12 lg:space-y-16">
 				<!-- Primary Headline -->
 				<div class="relative">
@@ -40,11 +40,7 @@
 						class={`text-4xl leading-[0.85] font-black tracking-[-0.02em] uppercase sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}
 						style="transition: all 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);"
 					>
-						DINO
-						<br />
-						CAN
-						<br />
-						<span class="text-muted-foreground">CODE</span>
+						DINO CAN CODE
 					</h1>
 				</div>
 
@@ -54,7 +50,7 @@
 					style="transition: all 0.8s cubic-bezier(0.25, 0.1, 0.25, 1) 0.2s;"
 				>
 					<div class="border-foreground border-l-4 pl-4 sm:pl-6 lg:pl-8">
-						<h2 class="max-w-lg text-base leading-relaxed font-light sm:text-lg md:text-xl">
+						<h2 class="text-base leading-relaxed font-light sm:text-lg md:text-xl">
 							Backend and Machine Learning Engineer specializing in scalable systems and AI
 							solutions
 						</h2>
@@ -64,13 +60,13 @@
 		</div>
 
 		<!-- Information Panel -->
-		<div class="lg:col-span-5">
+		<!-- <div class="lg:col-span-5">
 			<div
 				class={`space-y-8 sm:space-y-12 lg:space-y-16 ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}
 				style="transition: all 0.8s cubic-bezier(0.25, 0.1, 0.25, 1) 0.4s;"
 			>
 				<!-- Personal Information -->
-				<div class="space-y-6 sm:space-y-8">
+		<!-- <div class="space-y-6 sm:space-y-8">
 					<div class="border-foreground border-l-4 pl-4 sm:pl-6 lg:pl-8">
 						<div
 							class="text-muted-foreground mb-3 font-mono text-xs tracking-[0.2em] uppercase sm:mb-4"
@@ -101,10 +97,10 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
-				<!-- Technical Focus -->
-				<div class="space-y-6 sm:space-y-8">
+		<!-- Technical Focus -->
+		<!-- <div class="space-y-6 sm:space-y-8">
 					<div class="border-foreground border-l-4 pl-4 sm:pl-6 lg:pl-8">
 						<div
 							class="text-muted-foreground mb-3 font-mono text-xs tracking-[0.2em] uppercase sm:mb-4"
@@ -126,10 +122,10 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
-				<!-- Primary Technologies -->
-				<div class="space-y-6 sm:space-y-8">
+		<!-- Primary Technologies -->
+		<!-- <div class="space-y-6 sm:space-y-8">
 					<div class="border-foreground border-l-4 pl-4 sm:pl-6 lg:pl-8">
 						<div
 							class="text-muted-foreground mb-3 font-mono text-xs tracking-[0.2em] uppercase sm:mb-4"
@@ -145,6 +141,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </section>
