@@ -58,10 +58,11 @@
 				<div class="mt-8 sm:mt-12">
 					<a
 						data-sveltekit-preload-data="hover"
-						href="/blogs"
+						href="/resume"
+						target="_blank"
 						class="border-foreground bg-background hover:bg-foreground hover:text-background inline-block border-2 px-6 py-3 font-mono text-xs tracking-[0.1em] uppercase transition-all duration-200 sm:px-8 sm:py-4 sm:text-sm"
 					>
-						Read my Technical Blogs
+						Checkout My Resume
 					</a>
 				</div>
 			</div>

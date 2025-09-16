@@ -51,8 +51,7 @@
 				>
 					<div class="border-foreground border-l-4 pl-4 sm:pl-6 lg:pl-8">
 						<h2 class="text-base leading-relaxed font-light sm:text-lg md:text-xl">
-							Backend and Machine Learning Engineer specializing in scalable systems and AI
-							solutions
+							Backend and Machine Learning Engineer specializing in scalable systems and solutions
 						</h2>
 					</div>
 				</div>

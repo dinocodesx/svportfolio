@@ -15,7 +15,7 @@
 		style="animation-delay: 1.5s;"
 	>
 		<div class="text-muted-foreground/20 text-4xl font-black select-none sm:text-6xl lg:text-8xl">
-			06
+			05
 		</div>
 	</div>
 

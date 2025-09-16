@@ -1,46 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import talksData from '../../data/talks.json';
 
-	// Placeholder data for talks - you can replace this with actual data
-	let talks = [
-		{
-			id: 1,
-			title: 'Machine Learning in Production: Best Practices',
-			description:
-				'A comprehensive talk about deploying ML models in production environments, covering MLOps, monitoring, and scaling strategies.',
-			date: '2024-03-15',
-			venue: 'Tech Conference 2024',
-			type: 'Conference',
-			slides: '#',
-			video: '#',
-			tags: ['Machine Learning', 'MLOps', 'Production']
-		},
-		{
-			id: 2,
-			title: 'Building Scalable Backend Systems',
-			description:
-				'Deep dive into backend architecture patterns, microservices design, and performance optimization techniques.',
-			date: '2024-01-20',
-			venue: 'Developer Meetup',
-			type: 'Meetup',
-			slides: '#',
-			video: '#',
-			tags: ['Backend', 'Microservices', 'Architecture']
-		},
-		{
-			id: 3,
-			title: 'Modern JavaScript and TypeScript',
-			description:
-				'Exploring the latest features in JavaScript and TypeScript, with practical examples and best practices.',
-			date: '2023-11-10',
-			venue: 'Online Workshop',
-			type: 'Workshop',
-			slides: '#',
-			video: '#',
-			tags: ['JavaScript', 'TypeScript', 'Web Development']
-		}
-	];
-
+	let talks = talksData;
 	let mounted = false;
 
 	onMount(() => {
@@ -94,7 +56,7 @@
 						<div class="mb-4 flex flex-col sm:flex-row sm:items-start sm:justify-between">
 							<div class="flex-1">
 								<h2 class="text-foreground mb-2 text-xl font-semibold">{talk.title}</h2>
-								<div class="mb-3 flex flex-wrap items-center gap-2">
+								<div class="my-5 flex flex-wrap items-center gap-2">
 									<span
 										class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium {getTypeColor(
 											talk.type
@@ -174,8 +136,8 @@
 					enthusiasts.
 				</p>
 				<a
-					href="/meet"
-					class="bg-primary text-primary-foreground hover:bg-primary/90 inline-flex items-center rounded-md px-6 py-3 font-medium transition-colors"
+					href="mailto:debarshee.chakraborty.work@gmail.com"
+					class="border-foreground bg-background hover:bg-foreground hover:text-background mt-5 inline-block border-2 px-6 py-3 font-mono text-xs tracking-[0.1em] uppercase transition-all duration-200 sm:px-8 sm:py-4 sm:text-sm"
 				>
 					Get in Touch
 				</a>
